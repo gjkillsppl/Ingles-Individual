@@ -1,0 +1,301 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+* {
+    box-sizing: border-box;
+  }
+
+html, body {
+    overflow-x: hidden;
+  }
+
+:root {
+    --primary-color: #EFC500;
+    --secondary-color: #02BF39;
+}
+
+ol, ul {
+    padding-left: 1.1rem;
+}
+
+* {
+    font-family: 'Varela Round', sans-serif;
+}
+
+h1 {
+    font-size: 35px;
+    line-height: 40px;
+    letter-spacing: 1.5px;
+    font-weight: 700;
+    position:relative;
+    display: block;
+}
+
+h1:after{
+    position: absolute;
+    content: '';
+    width:30%;
+    text-align: center;
+    top:110%;
+    display: block;
+    height: 5px;
+    background-color: var(--primary-color);
+    left:50%;
+    transform: translateX(-50%);
+}
+
+h2{
+    font-size:40px;
+    line-height: 60px;
+    color:var(--secondary-color);
+}
+
+h2.white{
+    color:#fff;
+}
+
+h5 {
+    font-size: 16px;
+    line-height: 20px;
+}
+
+
+.img-fluid{
+    min-width:247px;
+}
+
+
+a{
+    text-decoration: none;;
+}
+
+
+.lista li{
+    list-style: none;
+    position:relative;
+    font-size:18px;
+    color:#666666;
+    line-height: 30px;
+    font-weight: 500;
+}
+
+.lista li:before{
+    position: absolute;
+    content: '';
+    top:40%;
+    margin-right:5px;
+    width: 10px;
+    height: 10px;
+    background: var(--primary-color);
+    border-radius:100%;
+    left:-20px;
+
+}
+
+
+.btn-primary {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+    text-transform: uppercase;
+    padding: 1rem 1.3rem;
+    color:black;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+
+.btn-primary:hover{
+    background-color:var(--secondary-color);
+    color:white;
+}
+
+.titulo-seccion{
+    color:var(--secondary-color);
+}
+
+.site-header {
+    padding-top: 50px;
+}
+
+.copy {
+    color: #fff;
+    padding-top: 130px;
+    padding-bottom: 130px;
+}
+
+.copy h1{
+    position:relative;
+}
+
+
+.copy h5{
+    margin-top:40px;
+}
+
+
+.play{
+position: absolute;
+width: 120px;
+height: 120px;
+left: 46.87%;
+top: 65.4%;
+}
+
+
+.imagen-header{
+position: absolute;
+right: -10%;
+top: 13%;
+}
+
+.image-overlay {
+    position: absolute;
+    top: -100px;;
+    left: 0;
+    width: 100%;
+    height: 120%;
+    z-index: -1;
+    transform: translate(-50% -50%);
+    background-color:var(--secondary-color);
+    border-bottom-right-radius: 200px;
+    border-bottom-left-radius: 200px;;
+
+}
+
+.fa.telefono{
+    padding-right:1rem;
+}
+
+#conocenos{
+    padding-bottom:0px;
+    padding-top:0px;
+    position:relative;
+}
+
+
+.col-ingles{
+    padding-top:0px;
+}
+
+#conocenos .lista {
+    padding-top:30px;
+}
+
+#conocenos .dots{
+    position:absolute;
+    left:-44px;
+    bottom:114px;
+}
+
+
+
+#ventajas{
+    background-image: url('/img/BACKGROUND-2.svg');
+    background-size: cover;
+    padding-top:140px;
+    background-position: 8%;
+    
+}
+
+.bullets{
+    margin-top:2rem;
+    font-size:18px;
+    color:var(--secondary-color);
+    font-weight: 500;
+}
+
+#testimonios{
+    padding-top:140px;
+    padding-bottom:140px;
+    position:relative;
+}
+
+.square{
+    position:absolute;
+    top:70px;
+    right:-30px;
+    z-index:-1;
+}
+
+.testimonio_text{
+    background: #F9F9F9;
+    padding:80px 40px 80px 150px;
+    position:relative;
+}
+
+p{
+    font-size:20px;
+    line-height: 30px;
+}
+
+.testimonio_text .quote{
+    left:40px;
+    top:50px;
+    position:absolute;
+}
+
+#garantia{
+    padding-top:140px;
+    padding-bottom:140px;
+    background-color: #F6F6F6;
+    position:relative;
+}
+
+#garantia .houston{
+    padding-top:60px;
+    
+}
+
+.green-dots{
+    position:absolute;
+    left:0;
+    bottom:100px;
+}
+
+#contacto{
+    background-color:var(--secondary-color);
+}
+
+
+@media (min-width: 1400px){
+.container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    max-width: 1170px;
+}
+}
+
+@media (min-width: 769px){
+    .col-ingles{
+        padding-top:140px;
+    }
+    
+    #conocenos{
+        padding-bottom:140px;
+    }
+    
+    #ventajas{
+        padding-top:140px;
+        padding-bottom:140px;
+    }
+    
+    h1 {
+        font-size: 60px;
+        line-height: 80px;
+    
+    }
+    
+    h2{
+        font-size:40px;
+        line-height: 60px;
+        color:var(--secondary-color);
+    }
+    
+    h2.white{
+        color:#fff;
+    }
+    
+    h5 {
+        font-size: 20px;
+        line-height: 35px;
+    }
+    
+
+}
+

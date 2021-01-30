@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<!-- saved from url=(0022)http://localhost:5050/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <!-- Required meta tags -->
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    
+    
+    <title>Hello, world!</title>
+  <link href="./Hello, world!_files/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous"><link rel="stylesheet" href="./Hello, world!_files/styles.css"></head>
+  <body data-gsap="{&quot;haveGSAP&quot;:false,&quot;GSAPVersion&quot;:null}">
+    <section class="hero">
+        <div class="image-overlay" style="background-image:url(&#39;img/background-hero.svg&#39;); background-size:cover;">
+        </div>
+        <div class="container">
+            <div class="site-header header  clearfix">
+            <div class="brand col-lg float-start">
+                <img src="./Hello, world!_files/logo.svg" class="logo">
+            </div>
+            <div class="telefono col-lg float-end">
+                <a href="tel:9999923923"><i class="fa fa-phone"></i>992323232</a>
+            </div>
+            </div>
+        </div>
+        <div class="container copy">
+            <div class="row">
+                
+                <div class="col-lg-5">
+                    <h1>¡Domina el idioma inglés y habla fluido!</h1>
+                    <h5>Somos el único instituto donde lograrás hablar inglés a tu ritmo, en tus horarios y con grupos reducidos. Ganarás confianza practicando de manera que serás bilingüe en 12 meses o menos.</h5>
+                    <button class="btn btn-primary mt-5">Quiero Recibir Información</button>
+                </div>
+                <div class="col-lg imagen-header">
+                    <img src="./Hello, world!_files/img-header.png" alt="">
+                </div>
+                <div class="play">
+                    <img src="./Hello, world!_files/play-boton.svg">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="./Hello, world!_files/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+
+  <!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function() {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					head.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					head.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function(msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			console.log('Live reload enabled.');
+		})();
+	}
+	// ]]>
+</script>
+
+<script type="text/javascript" id="s-gsapchecker" src="chrome-extension://ohjmhldioopcachmenfnhlbgmkaohgbb/checker.js"></script></body></html>
